@@ -1,0 +1,162 @@
+.App {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    width: 90%;
+}
+.search-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: solid rgb(0, 4, 255) 2px;
+    margin-top: 2%;
+}
+.food-search {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    border: solid rgb(193, 135, 222) 2px;
+}
+.targets-container {
+    display: flex;
+}
+.targets {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.target-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    padding: 1%;
+    background: linear-gradient(to top, white 80%, rgb(244, 234, 81) 20%);
+}
+.targets-displayed-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.limit-span {
+    color: black;
+    margin-bottom: 4%;
+}
+
+.input-style {
+    border-radius: 4px;
+    margin: 3%;
+    height: 30px;
+    width: 100px;
+}
+.button {
+    border-radius: 6px;
+    height: 25px;
+    background-color: white;
+    color: black;
+    margin: 3%;
+}
+.food-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.food-item {
+    border: solid rgb(138, 8, 8) 2px;
+    width: 250px;
+    padding: 1%;
+}
+.macro-datum {
+    border-bottom: solid black 1px;
+}
+.main-container {
+    display: flex;
+    justify-content: space-evenly;
+    border: solid magenta 2px;
+}
+
+.ind-selection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid black 1px;
+}
+
+.output-container {
+    display: flex;
+    flex-direction: column;
+}
+.output-target-box {
+    display: flex;
+    padding: 2%;
+}
+.total-selected {
+    margin-right: 3%;
+    text-align: left;
+
+    padding: 2%;
+}
+.selected-header {
+    background-color: rgb(63, 102, 145);
+
+    color: black;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+}
+.target-diff {
+    margin-right: 3%;
+    text-align: left;
+    padding: 2%;
+}
+.diff-header {
+    /* background-color: red; */
+    background-color: rgb(78, 172, 91);
+    color: black;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+}
+.diff-header-positive {
+    /* background-color: red; */
+    background-color: rgb(78, 172, 91);
+    color: black;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+}
+
+.portions {
+    display: flex;
+    padding: 2%;
+}
+
+.quality-box {
+    margin-right: 3%;
+    text-align: left;
+    padding: 2%;
+}
+.qualities-header {
+    background-color: rgb(63, 102, 145);
+    color: black;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+}
+
+.portion-box {
+    margin-right: 3%;
+    text-align: left;
+
+    padding: 2%;
+}
+.portions-header {
+    background-color: rgb(237, 111, 45);
+    color: black;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+}
